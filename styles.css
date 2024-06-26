@@ -15,6 +15,7 @@ body {
     min-height: 565px;
     background-color: white;
     border-radius: 16px;
+    color: #301534;
 }
 
 .content {
@@ -24,4 +25,45 @@ body {
 h1 {
     font-size: 56px;
     font-weight: 700;
+    padding-left: 24px;
+}
+
+hr {
+    border-top: 1px solid #F8EEFF;
+}
+
+.question {
+    padding: 24px 0;
+
+}
+
+.q1 {
+    padding: 0 0 24px;
+}
+
+.q {
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.q:hover {
+    color: #AD28EB;
+    cursor: pointer;
+}
+
+.answer {
+    padding-top: 24px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.hide {
+    display: none;
 }
