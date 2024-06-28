@@ -5,11 +5,17 @@
 }
 
 body {
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
     background-color: #F8EEFF;
     font-size: 16px;
 }
 
+
 .card {
+
     margin: 167px auto;
     width: 600px;
     min-height: 455px;
@@ -34,7 +40,6 @@ hr {
 
 .question {
     padding: 24px 0;
-
 }
 
 .q1 {
@@ -66,4 +71,59 @@ hr {
 
 .hide {
     display: none;
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width:720px) {
+
+    body {
+        background-image: url(./assets/images/background-pattern-mobile.svg);
+    }
+
+    .card {
+        width: 340px;
+        min-height: 327px;
+        margin: 100px auto;
+    }
+
+    .content {
+        padding: 24px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .star {
+        height: 24px;
+        width: 24px;
+    }
+
+    .q {
+        font-size: 16px;
+    }
+
+    .answer {
+        font-size: 14px;
+    }
+
+    .question {
+        padding: 20px 0;
+    }
+
+    .q1 {
+        padding: 0 0 20px;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .desktop {
+        display: none;
+    }
+
 }
